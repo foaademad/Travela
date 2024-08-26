@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap -->
+        <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap.css" /> -->
+        <!-- SwiperJS  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!--icon link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <!-- style -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- Resposiable style -->
+        <link rel="stylesheet" href="./css/resposiable.css" />
+        <title>Travela</title>
+    </head>
+     <body>
+     
+    <header>
+        <div class="topnav" id="myTopnav">
+        
+        <div class="logo">
+            <h1 class="m-0"><i class="fa fa-map-marker-alt me-3" style="margin-right: 15px;"></i>Travela</h1>
+        </div>
+        <nav>
+        
+        <a href="#home" class="active">Home</a>
+        <a href="#news">About</a>
+        <a href="#contact">Services</a>
+        <a href="#contact">Packages</a>
+        <a href="#contact">Blog</a>
+        <div class="dropdown">
+            <button class="dropbtn">Pages 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="#">Destination</a>
+            <a href="#">Explore Tour</a>
+            <a href="#">Travel Booking</a>
+            <a href="#">Our Gallery</a>
+            <a href="#">Travel Guides</a>
+            <a href="#">Testimonial</a>
+            </div>
+        </div> 
+        <a href="#about">Contact</a>
+        <a class="button">Services</a>
+        </nav> 
+        <li href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</li>
+        </div>
+    </header>
+
+
+
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            
+            <img src="./img/home-page/carousel-1.jpg" style="width:100%">
+            <div class="text">
+              <div class="overlay-slidcontent">
+                <div class="p-3" style="max-width: 900px;">
+                  <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px; text-transform: uppercase;">Explore The World</h4>
+                  <h1 class="display-2 text-capitalize text-white mb-4">Find Your Perfect Tour At Travel</h1>
+                  <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                  </p>
+                  <div class="d-flex align-items-center justify-content-center">
+                      <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                  </div>
+              </div>
+              
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="mySlides fade">
+            
+            <img src="./img/home-page/carousel-2.jpg" style="width:100%">
+            <div class="text">
+              <div class="overlay-slidcontent">
+                <div class="p-3" style="max-width: 900px;">
+                  <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
+                  <h1 class="display-2 text-capitalize text-white mb-4">Let's The World Together!</h1>
+                  <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                  </p>
+                  <div class="d-flex align-items-center justify-content-center">
+                      <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                  </div>
+              </div>
+              
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="mySlides fade">
+            
+            <img src="./img/home-page/carousel-3.jpg" style="width:100%">
+            <div class="text">
+              <div class="overlay-slidcontent">
+                <div class="p-3" style="max-width: 900px;">
+                  <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
+                  <h1 class="display-2 text-capitalize text-white mb-4">You Like To Go?</h1>
+                  <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                  </p>
+                  <div class="d-flex align-items-center justify-content-center">
+                      <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                  </div>
+              </div>
+              
+              </div>
+              
+            </div>
+          </div>
+          
+          </div>
+
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+
+          <a class="prev" onclick="changeOrder(-1)">❮</a>
+          <a class="next" onclick="changeOrder(1)">❯</a>  
+          
+          <!-- search button -->
+        <div class="search-container">
+          <input type="text" placeholder="Eg: Thailand">
+          <button class="button">Search</button>
+        </div>
+
+      <!-- section1  -->
+      <section class="section1" >
+        <div class="container">
+          <div class="image-section">
+              <div class="background"></div>
+              <img src="./img/about/about-img.jpg" alt="Travel">
+          </div>
+          <div class="content-section"style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(./img/about/about-img-1.png);">
+            <h5 class="section-about-title">About Us ______</h5>
+            <h1 class="mb-4">Welcome to <span class="text-primary">Travela</span></h1>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum, doloribus sunt dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam assumenda? Id atque iste consectetur. Commodi odit ab saepe!</p>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos voluptatem suscipit neque enim, doloribus ipsum rem eos distinctio, dignissimos nisi saepe nulla? Libero numquam perferendis provident placeat molestiae quia?</p>
+            <div class="row gy-2 gx-4 mb-4">
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
+                </div>
+            </div>
+            <a class="button" href="">Read More</a>
+          </div>
+      </div>
+    
+      </section>
+    
+        
+      <!-- Section2 -->
+        <section class="section2">
+          <div class="container">
+            <span>_____  SEAVICES  _____</span>
+            <h1 class="section-title">Our Services</h1>
+            <div class="table">
+              <div class="col-lg-6">
+                <div class="row g-4">
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
+                            <div class="service-content text-end">
+                                <h5 class="mb-4">WorldWide Tours</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                            <div class="service-icon p-4">
+                                <i class="fa fa-globe fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
+                            <div class="service-content text-end">
+                                <h5 class="mb-4">Hotel Reservation</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                            <div class="service-icon p-4">
+                                <i class="fa fa-hotel fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
+                            <div class="service-content text-end">
+                                <h5 class="mb-4">Travel Guides</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                            <div class="service-icon p-4">
+                                <i class="fa fa-user fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
+                            <div class="service-content text-end">
+                                <h5 class="mb-4">Event Management</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                            <div class="service-icon p-4">
+                                <i class="fa fa-cog fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="row g-4">
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                            <div class="service-icon p-4">
+                                <i class="fa fa-globe fa-4x text-primary"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5 class="mb-4">WorldWide Tours</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                            <div class="service-icon p-4">
+                                <i class="fa fa-hotel fa-4x text-primary"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5 class="mb-4">Hotel Reservation</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                            <div class="service-icon p-4">
+                                <i class="fa fa-user fa-4x text-primary"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5 class="mb-4">Travel Guides</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
+                            <div class="service-icon p-4">
+                                <i class="fa fa-cog fa-4x text-primary"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5 class="mb-4">Event Management</h5>
+                                <p class="mb-0">Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+                <a class="button" href="" >See More Services</a>
+            </div>
+          </div>
+        </section>
+
+      <!-- Section3-->
+        <section class="section3">
+          <div class="container">
+            <h6 class="section-title"  style="color: #13357b; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Destinations ____</h6>
+            <h2 class="section-title" >Popular Destination</h2>
+            <div class="filter-buttons">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('usa')"> USA</button>
+                <button class="btn" onclick="filterSelection('canada')"> Canada</button>
+                <button class="btn" onclick="filterSelection('europe')"> Europe</button>
+                <button class="btn" onclick="filterSelection('china')"> China</button>
+                <button class="btn" onclick="filterSelection('singapore')"> Singapore</button>
+            </div>
+        
+            <div class="row">
+                <div class="column usa">
+                    <img src="https://themewagon.github.io/travela/img/destination-1.jpg" alt="USA">
+                </div>
+                <div class="column usa">
+                  <img src="https://themewagon.github.io/travela/img/destination-2.jpg" alt="USA">
+                </div>
+                <div class="column china">
+                    <img src="./img/distination/christian-weinberg-_-9vg7gl1ha-unsplash-scaled.jpg" alt="China">
+                </div>
+                
+                <div class="column canada">
+                    <img src="https://themewagon.github.io/travela/img/destination-7.jpg" alt="Canada">
+                </div>
+                <div class="column canada">
+                  <img src="https://themewagon.github.io/travela/img/destination-5.jpg" alt="Canada">
+                </div>
+                <div class="column europe">
+                    <img src="https://themewagon.github.io/travela/img/destination-8.jpg" alt="Europe">
+                </div>
+                <div class="column europe">
+                  <img src="https://themewagon.github.io/travela/img/destination-4.jpg" alt="Europe">
+              </div>
+                <div class="column singapore">
+                    <img src="https://themewagon.github.io/travela/img/destination-6.jpg" alt="Singapore">
+                </div>
+                <!-- Add more images with the appropriate class -->
+            </div>
+        </div>
+        
+        </section>
+    
+      <!-- Section4-->
+        <section class="section4">
+          <div class="container">
+            <h6 class="section-title"  style="color: #13357b; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Explore Tour ____</h6>
+            <h2 class="section-title">The World</h2>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo?
+            </p>
+        
+            <div class="filter-buttons">
+                <button class="btn active" onclick="showNationalTours()">National Tour Category</button>
+                <button class="btn" onclick="showInternationalTours()">International Tour Category</button>
+            </div>
+        
+            <div id="national-tours" class="grid-container">
+                <!-- National Tour Images -->
+                <div class="grid-item">
+                    <img src="https://themewagon.github.io/travela/img/explore-tour-1.jpg" alt="Weekend Tour">
+                    <div class="overlay">
+                        <p class="tour-title">WEEKEND TOUR</p>
+                        <p class="view-more">View All Place →</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                  <img src="https://themewagon.github.io/travela/img/explore-tour-2.jpg" alt="Holiday Tour">
+                  <div class="overlay">
+                        <p class="tour-title">HOLIDAY TOUR</p>
+                        <p class="view-more">View All Place →</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://themewagon.github.io/travela/img/explore-tour-3.jpg" alt="Road Trip">
+                    <div class="overlay">
+                        <p class="tour-title">ROAD TRIP</p>
+                        <p class="view-more">View All Place →</p>
+                        <span class="discount-badge">15% Off</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                  <img src="https://themewagon.github.io/travela/img/explore-tour-4.jpg" alt="Histrical Trip">
+                  <div class="overlay">
+                        <p class="tour-title">HISTORICAL TRIP</p>
+                        <p class="view-more">View All Place →</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                  <img src="https://themewagon.github.io/travela/img/explore-tour-5.jpg" alt="Family Tour">
+                  <div class="overlay">
+                      <p class="tour-title">FAMILY Tour</p>
+                      <p class="view-more">View All Place →</p>
+                      <span class="discount-badge">50% Off</span>
+                  </div>
+              </div>
+              <div class="grid-item">
+                <img src="https://themewagon.github.io/travela/img/explore-tour-6.jpg" alt="beach Tour">
+                <div class="overlay">
+                    <p class="tour-title">BEACH Tour</p>
+                    <p class="view-more">View All Place →</p>
+                    
+                </div>
+            </div>
+            </div>
+        
+            <div id="international-tours" class="grid-container" style="display:none;">
+                <!-- International Tour Images -->
+                <div class="grid-item">
+                    <img src="https://themewagon.github.io/travela/img/explore-tour-4.jpg" alt="London Tour">
+                    <div class="overlay">
+                        <p class="tour-title">LONDON TOUR</p>
+                        <p class="view-more">View All Place →</p>
+                        <span class="discount-badge">70% Off</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://themewagon.github.io/travela/img/explore-tour-2.jpg" alt="Germany Tour">
+                    <div class="overlay">
+                        <p class="tour-title">GERNANY TOUR</p>
+                        <p class="view-more">View All Place →</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://themewagon.github.io/travela/img/explore-tour-1.jpg" alt="Australia Tour">
+                    <div class="overlay">
+                        <p class="tour-title">AUSTRALIA TOUR</p>
+                        <p class="view-more">View All Place →</p>
+                        <span class="discount-badge">20% Off</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        </section>
+
+     <!-- section5 -->
+        <section class="section5">
+            <div class="container">
+                <h6 class="section-title"  style="color: #13357b; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Packages ____</h6>
+                <h2>Awesome Packages</h2>
+                <div class="carousel">
+                    <div class="carousel-inner" id="carousel-inner">
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-4.jpg" alt="Thailand Trip">
+                            <div class="content0fpackage">
+                                <h3>Thailand Trip</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-2.jpg" alt="Venice, Italy">
+                            <div class="content0fpackage">
+                                <h3>Venice - Italy</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-3.jpg" alt="The New California">
+                            <div class="content0fpackage">
+                                <h3>The New California</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-1.jpg" alt="The New California">
+                            <div class="content0fpackage">
+                                <h3>The New California</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-4.jpg" alt="Thailand Trip">
+                            <div class="content0fpackage">
+                                <h3>Thailand Trip</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-2.jpg" alt="Venice, Italy">
+                            <div class="content0fpackage">
+                                <h3>Venice - Italy</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-3.jpg" alt="The New California">
+                            <div class="content0fpackage">
+                                <h3>The New California</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/packages-1.jpg" alt="The New California">
+                            <div class="content0fpackage">
+                                <h3>The New California</h3>
+                                <p>HOTEL DEALS</p>
+                                <span style="font-size: 20px;">★★★★★</span>
+                                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia quae illum aperiam fugiat voluptatem repellat</p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="#" class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="button-package" id="prev-Packages">←</button>
+                    <button class="button-package" id="next-Packages">→</button>
+                </div>
+            </div>
+        </section>
+    
+    <!-- Section6-->
+        <section class="section6">
+            <div class="contentofgallery">
+                <h6 class="section-title"  style="color: #13357b; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Our Gallery ____</h6>
+                <h2 class="section-title" >Tourism & Traveling Gallery.</h2>
+                <div class="filter-buttons">
+                    <button class="btn active" onclick="allSelection('all')"> All</button>
+                    <button class="btn" onclick="allSelection('World_tour')"> World Tour</button>
+                    <button class="btn" onclick="allSelection('Ocean_Tour')"> Ocean Tour</button>
+                    <button class="btn" onclick="allSelection('Summer_Tour')"> Summer Tour</button>
+                    <button class="btn" onclick="allSelection('Sport_Tour')"> Sport Tour</button>
+                </div>
+            
+                <div class="row">
+                    <div class="col World_tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-1.jpg" alt="World_tour">
+                    </div>
+                    <div class="col World_tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-2.jpg" alt="World_tour">
+                    </div>
+                    <div class="col china">
+                        <img src="https://themewagon.github.io/travela/img/gallery-4.jpg" alt="China">
+                    </div>
+                    
+                    <div class="col Ocean_Tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-5.jpg" alt="Ocean_Tour">
+                    </div>
+                    <div class="col Ocean_Tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-6.jpg" alt="Ocean_Tour">
+                    </div>
+                    <div class="col Summer_Tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-7.jpg" alt="Summer_Tour">
+                    </div>
+                    <div class="col Summer_Tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-9.jpg" alt="Summer_Tour">
+                    </div>
+                    <div class="col Sport_Tour">
+                        <img src="https://themewagon.github.io/travela/img/gallery-10.jpg" alt="Sport_Tour">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- section7 -->
+        <section class="section7">
+            <div class="booking-section">
+                <div class="container">
+                    <div class="booking-content">
+                        <h2>Booking ____</h2>
+                        <h3>Online Booking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime ullam esse fuga blanditiis accusantium pariatur quis sapiente, veniam doloribus praesentium? Repudiandae iste voluptatem fugiat doloribus quasi quo iure officia.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime ullam esse fuga blanditiis accusantium pariatur quis sapiente, veniam doloribus praesentium? Repudiandae iste voluptatem fugiat doloribus quasi quo iure officia.</p>
+                        <button >Read More</button>
+                    </div>
+                    <div class="booking-form">
+                        <h3>Book A Tour Deals</h3>
+                        <p>Get <span>50% Off</span> On Your First Adventure Trip With Travela. Get More Deal Offers Here.</p>
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name">
+                                <input type="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Date & Time">
+                                <select>
+                                    <option>Destination 1</option>
+                                    <option>Destination 2</option>
+                                    <option>Destination 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select>
+                                    <option>Persons 1</option>
+                                    <option>Persons 2</option>
+                                    <option>Persons 3</option>
+                                </select>
+                                <select>
+                                    <option>Kids</option>
+                                    <option>Adults</option>
+                                </select>
+                            </div>
+                            <textarea placeholder="Special Request"></textarea>
+                            <button type="submit">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- section8 -->
+        <section class="section8">
+            <div class="container">
+                <h6 class="section-title"  style="color: #13357b; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Our Blog ____</h6>
+                <h2>Popular Travel Blogs</h2>
+                <div class="carousel">
+                    <div class="carousel-inner" id="carousel-inner">
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/blog-1.jpg" alt="Thailand Trip">
+                            <div class="content0fpackage">
+                                <p>Posted By: Royal Hamblin</p>
+                                <h3>Adventures Trip</h3>
+                               
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                                <button class="button">Read More</button>
+                            </div>
+                           
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/blog-2.jpg" alt="Venice, Italy">
+                            <div class="content0fpackage">
+                                <p>Posted By: Royal Hamblin</p>
+                                <h3>Adventures Trip</h3>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                                <button class="button">Read More</button>
+                            </div>
+                            
+                        </div>
+                        <div class="package">
+                            <img src="https://themewagon.github.io/travela/img/blog-3.jpg" alt="The New California">
+                            <div class="content0fpackage">
+                                <p>Posted By: Royal Hamblin</p>
+                                <h3>Adventures Trip</h3>
+                               
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                                <button class="button">Read More</button>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- section9 -->
+     <section class="section9">
+        <div class="containerOfGuide">
+            <h6 class="section-title"  style="color: #13357b; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Travel Guide ____</h6>
+            <h2>Meet Our Guide</h2>
+            <div class="content-guide">
+                <div class="box">
+                    <div class="imgOfBox">
+                        <img src="./img/guide/guide-1.jpg" alt="Strength Training">
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    <div class="contentOfBox">
+                        <h3>Full Name</h3>
+                        <p>Designation</p>
+                    </div>
+                    
+                  
+                </div>
+                <div class="box">
+                    <div class="imgOfBox">
+                        <img src="./img/guide/guide-2.jpg" alt="Strength Training">
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    <div class="contentOfBox">
+                        <h3>Full Name</h3>
+                        <p>Designation</p>
+                    </div>
+                    
+                </div>
+                <div class="box">
+                    <div class="imgOfBox">
+                        <img src="./img/guide/guide-3.jpg" alt="Strength Training">
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    <div class="contentOfBox">
+                        <h3>Full Name</h3>
+                        <p>Designation</p>
+                    </div>
+                    
+                </div>
+                <div class="box">
+                    <div class="imgOfBox">
+                        <img src="./img/guide/guide-4.jpg" alt="Strength Training">
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    <div class="contentOfBox">
+                        <h3>Full Name</h3>
+                        <p>Designation</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+     </section>
+        
+    <!-- section10 -->
+     <section class="section10">
+        <div class="newsletter-section">
+            <h6 class="section-title"  style="color: #ffffff; margin-bottom: 20px; margin-top: 50px; font-size: 23px;">____ Subscribe ____</h6>
+            <h2>Our Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.</p>
+            <div class="subscribe-button">
+                <input type="text" placeholder="Eg: Your Email">
+                <button type="button">Subscribe</button>
+            </div>
+            
+          </div>
+     </section>
+    
+     <!-- footer -->
+     <footer>
+        <div class="containe">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</p>
+                    <p><i class="fas fa-envelope"></i> info@example.com</p>
+                    <p><i class="fas fa-phone"></i> +012 345 67890</p>
+                    <p><i class="fas fa-fax"></i> +012 345 67890</p>
+                    
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i> About</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Careers</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Blog</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Press</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Gift Cards</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Magazine</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Contact</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Legal Notice</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Terms and Conditions</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Sitemap</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>Cookie policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div class="language-currency">
+                        <select>
+                            <option>English</option>
+                            <option>Arabic</option>
+                        </select>
+                        <select>
+                            <option>USD</option>
+                            <option>EUR</option>
+                        </select>
+                    </div>
+                    <div class="footer-bank-card">
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Your Site Name, All rights reserved.</p>
+                <p>Designed by <a href="#">HTML Codex</a> Distributed By <a href="https://github.com/foaademad">Fouad Emad</a></p>
+            </div>
+        </div>
+    </footer>
+    
+
+     
+       <!-- Linking SwiperJS script -->
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       <!-- jquery -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+       <!-- Bootstrap -->
+        <!-- <script src="./js/bootstrap/bootstrap.js"></script> -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
